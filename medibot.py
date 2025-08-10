@@ -13,7 +13,7 @@ from langchain_groq import ChatGroq
 ## Uncomment the following files if you're not using pipenv as your virtual environment manager
 #from dotenv import load_dotenv, find_dotenv
 #load_dotenv(find_dotenv())
-
+#test
 
 DB_FAISS_PATH="vectorstore/db_faiss"
 @st.cache_resource
@@ -99,4 +99,5 @@ def main():
             st.error(f"Error: {str(e)}")
 
 if __name__ == "__main__":
+
     main()
